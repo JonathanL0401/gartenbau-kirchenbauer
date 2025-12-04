@@ -5,55 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gartenbau Kirchenbauer</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>Gartenbau Kirchenbauer</h1>
-    <p>Ihr Partner für Gartengestaltung und Pflege im Landkreis Fürstenfeldbruck</p>
-    <a class="cta-btn" href="#kontakt">Jetzt Kontakt aufnehmen</a>
+  <header class="hero" style="background-image: url('https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1920');">
+    <div class="hero-overlay">
+      <nav class="navbar">
+        <div class="logo">Gartenbau Kirchenbauer</div>
+        <ul class="nav-links">
+          <li><a href="#about">Über uns</a></li>
+          <li><a href="#services">Leistungen</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Gärten fürs Leben</h1>
+        <p>Wir gestalten und pflegen grüne Oasen in Fürstenfeldbruck</p>
+        <a href="#contact" class="btn">Jetzt Kontakt aufnehmen</a>
+      </div>
+    </div>
   </header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#about">Über uns</a></li>
-      <li><a href="#leistungen">Leistungen</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-    </ul>
-  </nav>
+
   <main>
-    <section id="about">
-      <h2>Über uns</h2>
-      <p>
-        Wir sind ein familiengeführter Garten- und Landschaftsbaubetrieb in Fürstenfeldbruck
-        und gestalten seit vielen Jahren natürliche Lebensräume. Mit Leidenschaft und
-        Know-how planen, bauen und pflegen wir Gärten, Grünflächen und Außenanlagen.
-      </p>
+    <section id="about" class="section about-section">
+      <div class="container grid">
+        <div class="text">
+          <h2>Über uns</h2>
+          <p>Seit über 20 Jahren plant, gestaltet und pflegt Gartenbau Kirchenbauer individuelle Gärten im Landkreis Fürstenfeldbruck. Unser Team aus erfahrenen Gärtnern und Landschaftsarchitekten verwandelt Außenbereiche in lebendige Wohlfühloasen.</p>
+          <p>Wir legen großen Wert auf nachhaltige Materialien, regionale Pflanzen und eine vertrauensvolle Zusammenarbeit mit unseren Kunden.</p>
+        </div>
+        <div class="image">
+          <img src="https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Gartengerät im Einsatz">
+        </div>
+      </div>
     </section>
-    <section id="leistungen">
-      <h2>Unsere Leistungen</h2>
-      <ul>
-        <li>Gartenplanung und -gestaltung</li>
-        <li>Pflaster- und Natursteinarbeiten</li>
-        <li>Teichbau und Wasserspiele</li>
-        <li>Baum- und Strauchschnitt</li>
-        <li>Gartenpflege</li>
-        <li>Zaunbau und Terrassenbau</li>
-      </ul>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <h2>Unsere Leistungen</h2>
+        <div class="services-grid">
+          <div class="service">
+            <i class="fa-solid fa-tree"></i>
+            <h3>Planung & Gestaltung</h3>
+            <p>Individuelle Gartenkonzepte, Pflanzpläne und 3D‑Visualisierungen für Ihren Traumgarten.</p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-seedling"></i>
+            <h3>Pflanzung & Pflege</h3>
+            <p>Professionelle Pflanzungen, Rasen‑ und Beetpflege, Baum- und Heckenschnitt sowie Bewässerung.</p>
+          </div>
+          <div class="service">
+            <i class="fa-solid fa-hammer"></i>
+            <h3>Wege & Terrassen</h3>
+            <p>Stein‑ und Holzarbeiten, Terrassenbau, Natursteinwege, Mauern und Wasseranlagen.</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>
-        Haben Sie Fragen oder wünschen Sie ein unverbindliches Angebot? Wir beraten
-        Sie gerne!
-      </p>
-      <ul class="contact-list">
-        <li><strong>Telefon:</strong> <a href="tel:08141123456">08141 123456</a></li>
-        <li><strong>E-Mail:</strong> <a href="mailto:info@gartenbau-kirchenbauer.de">info@gartenbau-kirchenbauer.de</a></li>
-        <li><strong>Adresse:</strong> Musterstraße 1, 82256 Fürstenfeldbruck</li>
-      </ul>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <h2>Projekte & Inspiration</h2>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1597201278257-3687be27d954?auto=compress&cs=tinysrgb&w=800" alt="Blühender Garten">
+          <img src="https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Haus mit gepflegtem Garten">
+          <img src="https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Baumallee">
+          <img src="https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Gartenarbeit">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Haben Sie Fragen oder möchten Sie ein unverbindliches Angebot? Wir freuen uns auf Ihre Nachricht!</p>
+        <div class="contact-info">
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:0123456789">01234 567890</a></p>
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@kirchenbauer-gartenbau.de">info@kirchenbauer-gartenbau.de</a></p>
+          <p><i class="fa-solid fa-location-dot"></i> Musterstraße 1, 82256 Fürstenfeldbruck</p>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2025 Gartenbau Kirchenbauer – Alle Rechte vorbehalten.</p>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Gartenbau Kirchenbauer – Fürstenfeldbruck</p>
+    </div>
   </footer>
 </body>
 </html>
